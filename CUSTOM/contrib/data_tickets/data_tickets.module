@@ -1,0 +1,15 @@
+<?php
+/**
+ * Implements hook_event_add_reg()
+ */
+function data_tickets_event_add_registration($keys) {
+    return array('date'=> date("Y-m-d"));
+}
+
+
+/**
+ * Implements hook_event_read()
+ */
+function data_tickets_event_display() {
+    return array('date' => t('Date'));
+}

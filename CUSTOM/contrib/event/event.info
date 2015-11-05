@@ -1,0 +1,5 @@
+name = Event
+description = Event registration
+package = Moduls from Andrey_ka
+version = VERSION
+core = 7.x

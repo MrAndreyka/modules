@@ -1,0 +1,6 @@
+name = data tickets
+description = Data_tickets
+package = Moduls from Andrey_ka
+dependencies[] = event
+version = VERSION
+core = 7.x

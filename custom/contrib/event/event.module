@@ -76,7 +76,8 @@ function event_registration_form() {
             t('First'),
             t('Second'),
             t('Third'),
-            t('Fourth'))
+            t('Fourth')),
+        '#default_value' => 1
 );
     //For theme chekbox
     $form['event_submit'] = array(
